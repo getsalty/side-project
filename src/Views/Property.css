@@ -1,0 +1,60 @@
+.property-root {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  /* margin: 10px; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.property-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.item {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.image {
+  width: 70px;
+  height: 60px;
+}
+
+.number {
+  margin: auto;
+  min-width: 5em;
+  width: 8em;
+  max-width: 15em;
+}
+
+.date {
+  margin: auto;
+  min-width: 9em;
+  width: 9em;
+  max-width: 10em;
+}
+
+.id {
+  margin: auto;
+  /* flex-grow: 2; */
+  width: 30%;
+}
+
+.even {
+  background-color: rgb(235, 235, 235);
+}
+
+.save-button {
+  width: 4em;
+  margin-left: 2em;
+  margin-right: 1em;
+}
